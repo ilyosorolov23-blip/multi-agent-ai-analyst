@@ -1,0 +1,11 @@
+# python
+__pycache__/
+*.pyc
+backend/.env
+backend/data/qdrant_local/
+backend/app/eval/results/*.csv
+
+# node
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local

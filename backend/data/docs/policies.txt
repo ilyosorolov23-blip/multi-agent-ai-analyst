@@ -1,0 +1,14 @@
+Refund & Support Policies
+
+Refund policy: customers can request a full refund within 14 days of their first
+charge, no questions asked. After 14 days, refunds are prorated for the unused
+portion of the current billing month only, and require a written request to
+support@example.com.
+
+Support channels: email support (response within one business day), an in-app
+chat widget available 9am-6pm ET on weekdays, and a community forum for
+peer-to-peer help. Enterprise customers additionally get a dedicated Slack
+channel with their account manager.
+
+Data retention: customer data is retained for 90 days after account cancellation,
+after which it is permanently deleted unless the customer requests earlier deletion.

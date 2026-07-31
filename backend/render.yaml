@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: multi-agent-analyst-backend
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: "pip install -r requirements.txt && python ingest.py"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PROXY_API_KEY
+        sync: false
+      - key: PROXY_BASE_URL
+        value: https://saidazam-litellm-proxy.hf.space/v1
+      - key: PROXY_CHAT_MODEL
+        value: gemini-flash-lite
+      - key: PROXY_EMBEDDING_MODEL
+        value: gemini-embedding
+      - key: TAVILY_API_KEY
+        sync: false
+      - key: LANGFUSE_PUBLIC_KEY
+        sync: false
+      - key: LANGFUSE_SECRET_KEY
+        sync: false
+      - key: LANGFUSE_HOST
+        value: https://cloud.langfuse.com
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_API_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: SQLITE_DB_PATH
+        value: ./data/company.db

@@ -1,0 +1,17 @@
+Product Overview
+
+Our company sells three products:
+
+1. Orbit — a project management tool for small teams, priced at $12/user/month.
+2. Pulse — a customer analytics dashboard that tracks usage and churn signals,
+   priced at $29/user/month.
+3. Beacon — an automated email and SMS marketing tool for e-commerce stores,
+   priced at $19/user/month.
+
+All three products share a single sign-on and a unified billing account. Customers
+typically start on Orbit and expand into Pulse once their team grows past ten people.
+
+Common churn reasons reported by the support team: (1) the customer's team shrank
+and the tool no longer fit their workflow, (2) they found a competitor with a lower
+price point, (3) they never fully onboarded and stopped seeing value within the
+first 30 days.

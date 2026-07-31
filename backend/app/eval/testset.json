@@ -1,0 +1,12 @@
+[
+  {"question": "What products does the company sell, according to the docs?", "reference": "See product_overview.txt for the authoritative list."},
+  {"question": "How many customers are in the customers table?", "reference": "A single integer count from the customers table."},
+  {"question": "How many orders were placed in total?", "reference": "A single integer count from the orders table."},
+  {"question": "What is the total revenue across all orders?", "reference": "Sum of the amount column in orders."},
+  {"question": "What is the average order value?", "reference": "Total revenue divided by number of orders."},
+  {"question": "Which customer has placed the most orders?", "reference": "The customer name with the highest order count."},
+  {"question": "What is the refund policy described in the docs?", "reference": "See policies.txt for the refund window and conditions."},
+  {"question": "Compute the square root of the total number of customers, rounded to 2 decimals.", "reference": "A numeric answer computed via the code agent."},
+  {"question": "What was discussed in the onboarding guide about support channels?", "reference": "See onboarding.txt support section."},
+  {"question": "How many customers churned, and what reasons are given in the docs?", "reference": "Requires both a SQL count and document evidence — a genuine multi-agent question."}
+]

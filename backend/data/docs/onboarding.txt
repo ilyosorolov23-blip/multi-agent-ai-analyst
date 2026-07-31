@@ -1,0 +1,11 @@
+Customer Onboarding Guide
+
+New customers go through a four-step onboarding flow: account setup, team invite,
+first project creation, and a 15-minute guided walkthrough call with a customer
+success rep (optional but strongly recommended — customers who take the call have
+a 40% lower 90-day churn rate).
+
+Support channels are surfaced throughout onboarding: a persistent chat widget,
+a link to the help center, and an automated check-in email on day 3 and day 10
+asking if the customer needs help. Customers who don't complete team invite within
+the first week receive a re-engagement email with a short video walkthrough.
